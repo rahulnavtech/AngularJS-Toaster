@@ -339,6 +339,7 @@
                             // each template can bind directly to the property to show/hide
                             // the close button
                             var closeButton = mergedConfig['close-button'];
+                            closeButton = true;
                             // if toast.showCloseButton is a boolean value,
                             // it was specifically overriden in the pop arguments
                             if (typeof toast.showCloseButton === "boolean") {
